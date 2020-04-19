@@ -6,7 +6,6 @@ body {
 
 .navbar {
     height: 100px;
-    margin-top: 3px;
     border-bottom: 2px solid lightslategray;
 }
 
@@ -27,7 +26,6 @@ a:hover {
 
 #content {
     background-color: white;
-    margin-top: 15px;
 }
 
 h3 {
@@ -40,15 +38,15 @@ h3 {
     height: 70px;
     line-height: 70px;
     border-top: 2px solid lightslategrey;
-    margin-bottom: 3px;
 }
 
 
-/* index.html */
+/* index.html 
 
 #aboutMe {
     margin: 15px;
 }
+*/
 
 .card-body {
     text-align: center;
