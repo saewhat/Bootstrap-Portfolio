@@ -1,0 +1,109 @@
+body {
+    background-image: url('../images/skyscraper.png');
+    background-color: white;
+    height: 100%;
+}
+
+.navbar {
+    height: 100px;
+    margin-top: 3px;
+    border-bottom: 2px solid lightslategray;
+}
+
+#headerLinks {
+    text-decoration: none;
+    color: lightslategrey;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: lightslategrey;
+}
+
+a:hover {
+    color: black;
+}
+
+#content {
+    background-color: white;
+    margin-top: 15px;
+}
+
+h3 {
+    border-bottom: 1px solid lightgray;
+}
+
+#footer {
+    background: white;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    border-top: 2px solid lightslategrey;
+    margin-bottom: 3px;
+}
+
+
+/* index.html */
+
+#aboutMe {
+    margin: 15px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+
+/* contact.html*/
+
+#forms {
+    margin: 15px;
+}
+
+form {
+    margin-right: 30px;
+}
+
+
+/* portfolio.html */
+
+.work {
+    position: relative;
+    float: left;
+    width: 200px;
+    margin: 20px 0 25px;
+    overflow: auto;
+}
+
+.work:nth-child(even) {
+    margin-right: 40px;
+}
+
+.work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+}
+
+.work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 250;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+}
+
+.auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+}
