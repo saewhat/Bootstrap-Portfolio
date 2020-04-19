@@ -105,3 +105,13 @@ form {
     margin-top: 10px;
     margin-right: 25px;
 }
+
+@media (min-width: 964px) and (max-width: 1182px) {
+    #aboutMe {
+        width: 75%;
+    }
+    #profPic {
+        width: 50%;
+        height: 50%;
+    }
+}
