@@ -106,12 +106,15 @@ form {
     margin-right: 25px;
 }
 
-@media (min-width: 964px) and (max-width: 1182px) {
+@media screen and (min-width: 670px) {
     #aboutMe {
-        width: 75%;
-    }
-    #profPic {
         width: 50%;
-        height: 50%;
+        margin:
+    }
+}
+
+@media screen and (min-width: 960px) {
+    #aboutMe {
+        width: 100%;
     }
 }
